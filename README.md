@@ -13,7 +13,7 @@ The following software have to get installed:
 
 ## Download and build with maven
 - Download source code: It is host on GitHub. To get the sources and compile them we will need the next git instruction.
-```git clone https://github.com/JMailloH/HS_FkNN_IS.git ```
+```git clone https://github.com/JMailloH/HS_FkNN.git ```
 - Build jar file: Once we have the sources, we generate the .jar file of the project by the next maven instruction.
 ```mvn package -Dmaven.test.skip=true. ```
 
