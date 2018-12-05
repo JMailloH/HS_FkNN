@@ -1,6 +1,10 @@
-# Fast and scalable approaches to accelerate the Fuzzy k Nearest Neighbors classifier for Big Data.
+# HS_FkNN: Hybrid Spill Tree Fuzzy k Nearest Neighbors.
 
 This is an open-source Spark package about two Fuzzy k Nearest Neighbors classifier based on Apache Spark. We take advantage of its in-memory operations to simultaneously classify big amounts of unseen cases against a big training dataset. It consists of two stages: class membership degree and classification. The class membership degree stage changes the class label to class membership degree vector. Two approaches are proposed to address this stage: Local Hybrid Spill Tree FkNN (LHS_FkNN) and Global Approximate Hybrid Spill Tree FkNN (GAHS-FkNN). LHS_FkNN follows a local approach, which calculates membership independently on each partition. GAHS-FkNN has a global approach based on Hybrid Spill Tree, considering all data from the training set. The classification stage is common to both models and is based on Hybrid Spill Tree.
+
+## Cite this software as:
+
+[Reference]
 
 # How to use
 
