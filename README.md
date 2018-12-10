@@ -30,9 +30,9 @@ The execution of this software can be considered as 3 independent parts: local m
 
 The run.sh file contains an example call for each algorithm. A generic sample of run could be: 
 
-/opt/spark-2.3.2/bin/spark-submit --master "URL" --class org.apache.spark.run.runHS_FkNN ./target/HS-FkNN-1.0.jar "path-to-header" "path-to-train" "path-to-test" "number-of-neighbors" "number-of-maps" "stage" "path-to-output"
+/opt/spark-2.3.2/bin/spark-submit --master "URL" --class org.apache.spark.run.runHS_FkNN ./target/HS_FkNN-1.0.jar "path-to-header" "path-to-train" "path-to-test" "number-of-neighbors" "number-of-maps" "stage" "path-to-output"
 
-- ```--class org.apache.spark.run.runHS_FkNN ./target/HS-FkNN-1.0.jar``` Determine the jar file to be run.
+- ```--class org.apache.spark.run.runHS_FkNN ./target/HS_FkNN-1.0.jar``` Determine the jar file to be run.
 - ```"path-to-header"``` Path from HDFS to header.
 - ```"path-to-train"``` Path from HDFS to training set.
 - ```"path-to-test"``` Path from HDFS to test set.
