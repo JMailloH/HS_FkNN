@@ -4,7 +4,7 @@ This is an open-source Spark package about two Fuzzy k Nearest Neighbors classif
 
 ## Cite this software as:
 
-[Reference]
+J. Maillo, S. García, J. Luengo, F. Herrera and I. Triguero, "Fast and Scalable Approaches to Accelerate the Fuzzy k Nearest Neighbors Classifier for Big Data" in IEEE Transactions on Fuzzy Systems. doi: 10.1109/TFUZZ.2019.2936356
 
 # How to use
 
